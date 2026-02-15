@@ -38,3 +38,13 @@
     - RGF.crop.top.shirt
     - RGF.pants
     - RGF.thongs
+
+-
+  author: Schlemmer Project
+  license: CC-BY
+  items:
+    - ballerina_dress
+    - ballerina_top
+    - ballerina_tights
+    - ballerina_shoes
+    - ballerina_hat
