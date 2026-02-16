@@ -1,0 +1,32 @@
+fitting: rigid
+category: "Dresses"
+tags: [ballet, schlemmer, spirale, costume]
+
+material_presets:
+  ivory:
+    label: "Creme/Ivory"
+    materials:
+      cloth:
+        Base Color: [0.95, 0.90, 0.82]
+        Roughness: 0.5
+  gold:
+    label: "Gold"
+    materials:
+      cloth:
+        Base Color: [0.82, 0.68, 0.38]
+        Metallic: 0.85
+        Roughness: 0.3
+  black:
+    label: "Schwarz"
+    materials:
+      cloth:
+        Base Color: [0.02, 0.02, 0.02]
+        Roughness: 0.6
+
+parameters:
+  offset:
+    label: "Surface Offset"
+    type: float
+    min: -0.005
+    max: 0.02
+    default: 0.001

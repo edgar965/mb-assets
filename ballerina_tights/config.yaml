@@ -1,0 +1,37 @@
+# non-rigid: CharMorph fits to body
+category: "Bottoms"
+tags: [ballet, schlemmer, tights]
+
+material_presets:
+  white:
+    label: "Wei\u00DF"
+    materials:
+      cloth:
+        Base Color: [0.95, 0.93, 0.91]
+        Roughness: 0.4
+  pink:
+    label: "Rosa"
+    materials:
+      cloth:
+        Base Color: [0.95, 0.75, 0.78]
+        Roughness: 0.4
+  black:
+    label: "Schwarz"
+    materials:
+      cloth:
+        Base Color: [0.02, 0.02, 0.02]
+        Roughness: 0.5
+
+parameters:
+  offset:
+    label: "Surface Offset"
+    type: float
+    min: -0.005
+    max: 0.01
+    default: 0.0005
+  smoothing:
+    label: "Smoothing"
+    type: float
+    min: 0.0
+    max: 1.0
+    default: 0.0

@@ -1,0 +1,17 @@
+# non-rigid: CharMorph fits to body
+category: "Shoes"
+tags: [ballet, schlemmer, pointe]
+
+material_presets:
+  pink:
+    label: "Rosa Satin"
+    materials:
+      shoe:
+        Base Color: [0.90, 0.72, 0.70]
+        Roughness: 0.35
+  white:
+    label: "Wei\u00DF"
+    materials:
+      shoe:
+        Base Color: [0.95, 0.93, 0.91]
+        Roughness: 0.4

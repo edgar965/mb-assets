@@ -1,0 +1,32 @@
+# non-rigid: CharMorph fits to body
+category: "Tops"
+tags: [ballet, schlemmer, spirale]
+
+material_presets:
+  ivory:
+    label: "Creme/Ivory"
+    materials:
+      cloth:
+        Base Color: [0.95, 0.90, 0.82]
+        Roughness: 0.5
+  gold:
+    label: "Gold"
+    materials:
+      cloth:
+        Base Color: [0.82, 0.68, 0.38]
+        Metallic: 0.85
+        Roughness: 0.3
+
+parameters:
+  offset:
+    label: "Surface Offset"
+    type: float
+    min: -0.005
+    max: 0.02
+    default: 0.001
+  smoothing:
+    label: "Smoothing"
+    type: float
+    min: 0.0
+    max: 1.0
+    default: 0.0
